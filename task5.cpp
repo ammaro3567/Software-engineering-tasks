@@ -85,8 +85,12 @@ public:
         cout << "Instructor id: " << instructorId << endl;
     }
 
-    void setName(string name) { this->name = name; }
-    void setInstructorId(int id) { this->instructorId = id; }
+    void setName(string name) { 
+        this->name = name; 
+    }
+    void setInstructorId(int id) { 
+        this->instructorId = id; 
+    }
 
     friend void updateGrade(Student &s, float newGrade);
 };
