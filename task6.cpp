@@ -48,7 +48,7 @@ public:
         return numberOfDoors;
     }
 
-    void displayInfo() override {
+    void displayInfo(){
         cout << "Car: " << brand << " Year: " << year << " Doors: " << numberOfDoors << endl;
     }
 };
